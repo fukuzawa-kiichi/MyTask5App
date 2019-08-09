@@ -20,6 +20,12 @@ class imformedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // numLabelをいじれせないようにする
+        nameLabel.isUserInteractionEnabled = false
+        // hobbyLabelをいじれせないようにする
+        hobbyLabel.isUserInteractionEnabled = false
+        
         // labelに名前と趣味を出力
         nameLabel.text = name
         hobbyLabel.text = hobby1
