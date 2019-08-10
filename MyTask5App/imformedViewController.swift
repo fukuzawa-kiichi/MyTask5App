@@ -23,8 +23,6 @@ class imformedViewController: UIViewController {
         // labelに名前と趣味を出力
         nameLabel.text = name
         hobbyLabel.text = hobby1
-        hobbyLabel.lineBreakMode = NSLineBreakMode.byWordWrapping   // 趣味のところのLabelが改行できるようにする
-        hobbyLabel.numberOfLines = 100      // 100行までなら改行可能
  
     }
     
